@@ -22,6 +22,14 @@ msgstr "Configurar ServiceHisilicon"
 msgid "Enable ServiceHisilicon (Need restart GUI):"
 msgstr "Activar ServiceHisilicon (Necesita reiniciar GUI):"
 
+#: plugin.py:31
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: plugin.py:32
+msgid "Ok"
+msgstr "Aceptar"
+
 #: plugin.py:61
 msgid "Enable/Disable hisilicon libraries for multimedia player."
 msgstr "Activar/Desactivar librerias hisilicon para reproductores multimedia."
