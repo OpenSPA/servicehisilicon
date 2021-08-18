@@ -1,4 +1,5 @@
 from . import _
+from __future__ import absolute_import
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.config import config, ConfigSubsection, ConfigYesNo, getConfigListEntry
@@ -55,7 +56,7 @@ def main(session, **kwargs):
 
 def autostart(reason, **kwargs):
 	if config.plugins.servicehisilicon.activate.value:
-		import servicehisilicon
+		from . import servicehisilicon
 
 def Plugins(**kwargs):
 	return [
