@@ -1,5 +1,5 @@
-from . import _
 from __future__ import absolute_import
+from . import _
 from Components.ActionMap import ActionMap
 from Components.Button import Button
 from Components.config import config, ConfigSubsection, ConfigYesNo, getConfigListEntry
